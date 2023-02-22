@@ -1,0 +1,15 @@
+.menu__link {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.12;
+  text-decoration: none;
+}
+
+@media (max-width: 499px) {
+  .menu__link {
+    font-size: 24px;
+    line-height: 1.0;
+  }
+}

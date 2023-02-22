@@ -1,0 +1,39 @@
+.places {
+  padding: 0 148px 92px;
+}
+
+@media (max-width: 1179px) {
+  .places {
+    padding: 0 98px 92px;
+  }
+}
+
+@media (max-width: 1079px) {
+  .places {
+    padding: 0 48px 92px;
+  }
+}
+
+@media (max-width: 979px) {
+  .places {
+    padding: 0 24px 90px;
+  }
+}
+
+@media (max-width: 895px) {
+  .places {
+    padding: 0 24px 88px;
+  }
+}
+
+@media (max-width: 767px) {
+  .places {
+    padding: 0 20px 76px;
+  }
+}
+
+@media (max-width: 499px) {
+  .places {
+    padding: 0 0 64px;
+  }
+}

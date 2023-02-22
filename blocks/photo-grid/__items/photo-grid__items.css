@@ -1,0 +1,30 @@
+.photo-grid__items {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 1159px) {
+  .photo-grid__items {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+}
+
+@media (max-width: 919px) {
+  .photo-grid__items {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+
+@media (max-width: 539px) {
+  .photo-grid__items {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}

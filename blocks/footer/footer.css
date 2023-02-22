@@ -1,0 +1,38 @@
+.footer {
+  margin: 0 auto;
+  padding: 0 48px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 979px) {
+  .footer {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 895px) {
+  .footer {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 719px) {
+  .footer {
+    flex-direction: column;
+    row-gap: 18px;
+  }
+}
+
+@media (max-width: 499px) {
+  .footer {
+    padding: 0 16px;
+    row-gap: 48px;
+  }
+}

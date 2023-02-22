@@ -1,0 +1,39 @@
+.intro {
+  padding: 0 148px 92px;
+}
+
+@media (max-width: 1179px) {
+  .intro {
+    padding: 0 98px 92px;
+  }
+}
+
+@media (max-width: 1079px) {
+  .intro {
+    padding: 0 48px 92px;
+  }
+}
+
+@media (max-width: 979px) {
+  .intro {
+    padding: 0 24px 90px;
+  }
+}
+
+@media (max-width: 895px) {
+  .intro {
+    padding: 0 24px 88px;
+  }
+}
+
+@media (max-width: 767px) {
+  .intro {
+    padding: 0 20px 76px;
+  }
+}
+
+@media (max-width: 399px) {
+  .intro {
+    padding: 0 16px 64px;
+  }
+}

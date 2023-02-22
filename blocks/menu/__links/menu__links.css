@@ -1,0 +1,15 @@
+.menu__links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 18px;
+}
+
+@media (max-width: 499px) {
+  .menu__links {
+    flex-direction: column;
+    row-gap: 32px;
+  }
+}
